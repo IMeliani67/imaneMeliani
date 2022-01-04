@@ -1,0 +1,107 @@
+body{
+  font-family: 'Roboto', 'sans-serif';
+  margin: 0px;
+  margin: auto;
+  padding: 0px;
+  color: #A6603A;
+  max-width: 1280px;
+  background-color: wheat;
+}
+
+img{
+  width: 100%;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  height: 150px;
+  width: 150px;
+}
+
+.menu{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  width: 460px;
+}
+
+a{
+  text-decoration: none;
+  color: #A6603A;
+}
+
+h1{
+  text-align: center;
+  font-size: 38px;
+}
+
+.banniere img{
+  height: 544px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+h2{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.groupeProduits{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.produits{
+  display: flex;
+  
+
+}
+
+.produits img{
+  width: 350px;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+figcaption{
+  width: 348px;
+}
+
+p{
+  font-weight: bold;
+}
+
+.avis img{
+  height: 510px;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+button{
+  margin: 24px;
+  padding: 20px;
+  font-size: 16px;
+  background: #A6603A;
+  border: none;
+  border-radius: 5px;
+}
+
+button a{
+  color: #F5DEB3;
+}
+
+.mentions{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.mentions a{
+  margin: 20px;
+  margin-bottom: 15px;
+}
